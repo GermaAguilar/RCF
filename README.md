@@ -199,7 +199,7 @@ Para cada cuenta en Anexo N13:
 > - Verificar que los Balances de Comprobación estén completos antes de ejecutar
 > - Revisar los totales en la hoja Menu como validación rápida
 
-## 🔧 Requisitos Técnicos
+## Requisitos Técnicos
 
 - **Software**: Microsoft Excel 2010 o superior
 - **Macros**: Deben estar habilitadas (Archivo → Opciones → Centro de confianza → Configuración del Centro de confianza → Configuración de macros → Habilitar todas las macros)
