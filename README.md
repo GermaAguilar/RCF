@@ -1,6 +1,6 @@
 # Generador de Reportes CSC - Renta Comercial y Fiscal
 
-## 📋 Descripción General
+## Descripción General
 
 Este archivo de Excel habilitado para macros (`CSC_reportes v3.xlsm`) automatiza la generación de reportes de **Renta Comercial y Fiscal (RCF)** a partir de balances de comprobación contables. La macro principal `Generar_estado_situacion_financiera()` procesa datos contables y genera automáticamente:
 
@@ -9,7 +9,7 @@ Este archivo de Excel habilitado para macros (`CSC_reportes v3.xlsm`) automatiza
 - Base de Impuesto Diferido
 - Cálculos de tributos (LOCTI, ISLR, Ley del Deporte)
 
-## 🎯 Propósito
+## Propósito
 
 Facilitar la preparación de reportes fiscales mediante la automatización de:
 - Búsqueda y consolidación de cuentas contables específicas
@@ -17,7 +17,7 @@ Facilitar la preparación de reportes fiscales mediante la automatización de:
 - Generación de anexos fiscales requeridos
 - Cálculo de provisiones tributarias
 
-## 📊 Hojas de Trabajo Requeridas
+## Hojas de Trabajo Requeridas
 
 El archivo debe contener las siguientes hojas:
 
@@ -30,7 +30,7 @@ El archivo debe contener las siguientes hojas:
 | **Base impuesto Diferido** | Cálculos de impuesto diferido (salida) |
 | **Menu** | Panel de control con indicadores fiscales (salida) |
 
-## 🚀 Instrucciones de Uso
+## Instrucciones de Uso
 
 ### Paso 1: Preparar los Datos de Entrada
 
@@ -59,7 +59,7 @@ Los datos se generarán automáticamente en las hojas de salida:
 - **Base impuesto Diferido**: Validar cálculos de impuesto diferido
 - **Menu**: Consultar indicadores y provisiones tributarias
 
-## 🔍 Funcionalidades Principales
+## Funcionalidades Principales
 
 ### 1. Procesamiento de Cuentas Contables
 
@@ -161,7 +161,7 @@ La macro también consolida cuentas por sus primeros 3 dígitos:
 | **611** | Otros Ingresos Mercantiles | `Menu!M24` |
 | **612** | Liberaciones de Reservas | `Menu!M25` |
 
-## ⚙️ Lógica de Procesamiento
+## Lógica de Procesamiento
 
 ### Búsqueda de Cuentas
 
@@ -182,7 +182,7 @@ Para cada cuenta en Anexo N13:
   3. La diferencia se calcula automáticamente en el Anexo
 ```
 
-## 📝 Notas Importantes
+## Notas Importantes
 
 > [!IMPORTANT]
 > - **Formato de cuentas**: Los códigos de cuenta deben ser numéricos exactos
@@ -205,7 +205,7 @@ Para cada cuenta en Anexo N13:
 - **Macros**: Deben estar habilitadas (Archivo → Opciones → Centro de confianza → Configuración del Centro de confianza → Configuración de macros → Habilitar todas las macros)
 - **Formato**: Archivo .xlsm (Excel habilitado para macros)
 
-## 📂 Estructura del Archivo
+## Estructura del Archivo
 
 ```
 CSC_reportes v3.xlsm
@@ -218,7 +218,7 @@ CSC_reportes v3.xlsm
 └── Módulo VBA: Generar_estado_situacion_financiera()
 ```
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 | Problema | Solución |
 |----------|----------|
@@ -227,7 +227,7 @@ CSC_reportes v3.xlsm
 | Error de referencia | Verificar que todas las hojas requeridas existan |
 | Resultados incorrectos | Verificar que los datos estén en las columnas correctas |
 
-## 📞 Soporte
+## Soporte
 
 Para dudas o problemas con la macro, verificar:
 1. Estructura de las hojas de trabajo
