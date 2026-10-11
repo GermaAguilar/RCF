@@ -218,6 +218,17 @@ CSC_reportes v3.xlsm
 └── Módulo VBA: Generar_estado_situacion_financiera()
 ```
 
+## Código fuente
+
+El código VBA vive dentro del archivo `.xlsm`, que GitHub no puede mostrar. Para poder leerlo sin abrir Excel, la carpeta [`src/`](src) tiene una copia en texto de las macros:
+
+| Archivo | Qué hace |
+|---|---|
+| [`Generar_estado_situacion_financiera.bas`](src/Generar_estado_situacion_financiera.bas) | Macro principal: lee los balances de comprobación y llena RCF, Anexo N°13, Base de Impuesto Diferido y Menu. |
+| [`CrearNuevoLibroDesdeLOG_reportes.bas`](src/CrearNuevoLibroDesdeLOG_reportes.bas) | Copia las hojas de salida a un libro nuevo y lo guarda en la carpeta de Descargas. |
+
+El archivo de trabajo sigue siendo el `.xlsm`; estas copias son solo de lectura.
+
 ## Solución de Problemas
 
 | Problema | Solución |
